@@ -1,15 +1,16 @@
 {
-  "name": "config-parser",
+  "name": "ubermap-config-parser",
   "version": "1.0.0",
-  "description": "",
+  "description": "Config parser for Ubermap INI-style config files",
+  "homepage": "http://ubermap.live",
   "main": "index.js",
   "scripts": {
     "build": "babel src -d lib",
     "test": "ava src/**/*.spec.js",
     "lint": "eslint src"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["ubermap"],
+  "author": "Tom Duncalf <tom@tomduncalf.com>",
   "license": "ISC",
   "devDependencies": {
     "ava": "0.14.0",
@@ -23,5 +24,8 @@
     "require": [
       "babel-register"
     ]
+  },
+  "dependencies": {
+    "icepick": "1.2.0"
   }
 }
