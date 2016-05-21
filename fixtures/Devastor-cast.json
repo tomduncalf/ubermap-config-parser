@@ -42,11 +42,11 @@
         "16_Filter 3 Route": "Filter Route"
     },
     "ParameterValueTypes": {
-        "Filter Type": "Off||0, LP||0.125, BP||0.375, HP||0.625, BR||0.865",
-        "Filter Route": "Pre, Post"
+        "Filter Type": ["Off||0", "LP||0.125", "BP||0.375", "HP||0.625", "BR||0.865"],
+        "Filter Route": ["Pre", "Post"]
     },
     "Config": {
-        "Cache": "False",
-        "Ignore": "True"
+        "Cache": false,
+        "Ignore": true
     }
 }
