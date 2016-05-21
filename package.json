@@ -1,0 +1,27 @@
+{
+  "name": "config-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "ava src/**/*.spec.js",
+    "lint": "eslint src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "0.14.0",
+    "babel-cli": "6.9.0",
+    "babel-eslint": "6.0.4",
+    "babel-preset-es2015": "6.9.0",
+    "eslint": "2.10.2"
+  },
+  "ava": {
+    "babel": "inherit",
+    "require": [
+      "babel-register"
+    ]
+  }
+}
